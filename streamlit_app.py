@@ -76,7 +76,7 @@ if 'curr_word' not in st.session_state:
     st.session_state.game_over = False
     st.session_state.message = ""  # Store only the latest message
 
-st.title('Hangman Game')
+st.title('Hangman Game by Swayam')
 st.write('Guess the word!')
 
 # Display the current state of the word
